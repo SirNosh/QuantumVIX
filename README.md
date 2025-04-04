@@ -20,11 +20,11 @@ The system continuously learns from market behavior, adjusting its trading param
 To set up the required environment, run the following commands:
 
 ```bash
-# Create a new conda environment named qnt_fixed with Python 3.10
-conda create -n qnt_fixed python=3.10
+# Create a new conda environment named qnt with Python 3.10
+conda create -n qnt python=3.10
 
 # Activate the environment
-conda activate qnt_fixed
+conda activate qnt
 
 # Install PyTorch (adjust for your specific hardware if needed)
 conda install pytorch -c pytorch
@@ -59,7 +59,7 @@ To train and evaluate the model:
 
 ```bash
 # Activate the environment
-conda activate qnt_fixed
+conda activate qnt
 
 # Run the strategy
 python rl_options_strategy.py
